@@ -1,3 +1,3 @@
 # FSE
 
-The code will be uploaded after the paper is received.
+The code will be uploaded after the paper is accepted.
