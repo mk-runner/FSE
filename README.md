@@ -26,7 +26,6 @@ We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
 
 - For `MIMIC-CXR`, you can download medical images from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 
-- You can download **medical reports** from [here](https://pan.baidu.com/s/1bMbee6XuyXhhLUZM8kfbEw), and its code is `MK13`.
 
 NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
 There have been some works using `MIMIC-CXR` only and treating the whole `IU X-Ray` dataset as an extra test set.
