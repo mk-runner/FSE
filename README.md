@@ -1,6 +1,21 @@
 # FSE
 
-The code will be uploaded after the paper is accepted.
+Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation. The code will be uploaded after the paper is accepted.
+
+## Citations
+
+If you use or extend our work, please cite our paper at ***.
+
+```
+@misc{liu2024factual,
+      title={Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation}, 
+      author={Kang Liu and Zhuoqi Ma and Mengmeng Liu and Zhicheng Jiao and Xiaolu Kang and Qiguang Miao and Kun Xie},
+      year={2024},
+      eprint={2405.09586},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
+```
 
 ## Requirements
 
