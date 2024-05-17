@@ -98,7 +98,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 3. Run `bash test_mimic_cxr.sh` to generate reports based on similar historical cases.
 
-4. Results on MIMIC-CXR are presented as follows:
+4. Results (i.e., FSE-5, $M_{gt}=100$) on MIMIC-CXR are presented as follows:
 
 <div align=center><img src="FSE_on_mimic_cxr.jpg"></div>
 
