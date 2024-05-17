@@ -104,7 +104,7 @@ Run `bash pretrain_mimic_cxr.sh` to pretrain a model on the MIMIC-CXR data.
 
 ## Reproducibility on IU X-ray
 
-### Results on IU-Xray are presented as follows:
+### Results (i.e., FSE-20, $M_{gt}=60$) on IU-Xray are presented as follows:
 
 <div align=center><img src="FSE_on_iu_xray.jpg"></div>
 
