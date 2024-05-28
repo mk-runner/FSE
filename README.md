@@ -1,6 +1,6 @@
 # FSE
 
-Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation. The code will be uploaded after the paper is accepted.
+Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation. 
 
 ## Citations
 
