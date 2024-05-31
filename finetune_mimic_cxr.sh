@@ -1,0 +1,15 @@
+python main_finetune.py \
+--task finetune \
+--data_name mimic_cxr \
+--mimic_cxr_ann_path "/home/miao/data/Code/MSC-V1212-ablation-study/knowledge_encoder/mimic_cxr_annotation_sen_best_reports_keywords_20.json" \
+--ft_monitor_metric RCB \
+--version get_checkpoint_5 \
+--max_seq_len 100 \
+--epochs 50 \
+--load "/home/miao/data/Code/MSC-V1212-ablation-study/results/mimic-cxr/pretrain/model_best.pth" \
+--freeze_text_encoder \
+--sk_type keywords \
+--sk_topk 5 \
+--optim RAdam \
+--is_save_checkpoint \
+--batch_size 64
