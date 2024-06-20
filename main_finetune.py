@@ -22,9 +22,8 @@ from models.model_finetune_region_knowledge_v1121 import FineTune
 os.environ['TORCH_USE_CUDA_DSA'] = '1'
 os.environ['TOKENIZERS_PARALLELISM'] = 'true'
 import wandb
-os.environ["WANDB_API_KEY"] = 'f1064ce1cf22123c5b34de7bdb0aaca7d5801c95'
+os.environ["WANDB_API_KEY"] = '****************'
 os.environ["WANDB_MODE"] = "offline"
-# wandb.login(key='f1064ce1cf22123c5b34de7bdb0aaca7d5801c95')
 
 
 def main():
