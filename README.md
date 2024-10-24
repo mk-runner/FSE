@@ -70,11 +70,11 @@ There have been some works using `MIMIC-CXR` only and treating the whole `IU X-R
     ```bash
    conda activate dygiepp
     ```
-2. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/see.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+2. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/factual_serialization.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 3. Set the local path in `config/finetune_config.yaml` for images and checkpoints, such as `mimic_cxr_image_dir` and `chexbert_model_checkpoint`
 4. Run the `knowledge_encoder/factual_serialization.py` to extract factual serialization for each sample.
 
-Notably,`chexbert.pth` can download from [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). `distilbert-base-uncased` can download from [here](https://huggingface.co/distilbert/distilbert-base-uncased). `bert-base-uncased` can download from [here](https://huggingface.co/google-bert/bert-base-uncased). `radgraph` can download from [here](https://physionet.org/content/radgraph/1.0.0/). `scibert_scivocab_uncased` can download from [here](https://huggingface.co/allenai/scibert_scivocab_uncased). 
+Notably,`scibert_scivocab_uncased` can be downloaded from [here](https://huggingface.co/allenai/scibert_scivocab_uncased). To calculate the NLG and CE metrics, you should download these checkpoints. `chexbert.pth` can be downloaded from [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). `distilbert-base-uncased` can be downloaded from [here](https://huggingface.co/distilbert/distilbert-base-uncased). `bert-base-uncased` can be downloaded from [here](https://huggingface.co/google-bert/bert-base-uncased). `radgraph` can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/). . 
 
 ### Conducting the first stage (i.e., training cross-modal alignment module)
 
