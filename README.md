@@ -43,7 +43,6 @@ We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
 
 
 NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
-There have been some works using `MIMIC-CXR` only and treating the whole `IU X-Ray` dataset as an extra test set.
 
 ## Reproducibility on MIMIC-CXR
 
@@ -51,6 +50,7 @@ There have been some works using `MIMIC-CXR` only and treating the whole `IU X-R
 
 1. Config RadGraph environment based on `knowledge_encoder/factual_serialization.py`
    ===================environmental setting=================
+   
     Basic Setup (One-time activity)
 
    a. Clone the DYGIE++ repository from [here](https://github.com/dwadden/dygiepp). This repository is managed by Wadden et al., authors of the paper [Entity, Relation, and Event Extraction with Contextualized Span Representations](https://www.aclweb.org/anthology/D19-1585.pdf).
@@ -70,9 +70,9 @@ There have been some works using `MIMIC-CXR` only and treating the whole `IU X-R
     ```bash
    conda activate dygiepp
     ```
-2. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/factual_serialization.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
-3. Set the local path in `config/finetune_config.yaml` for images and checkpoints, such as `mimic_cxr_image_dir` and `chexbert_model_checkpoint`
-4. Run the `knowledge_encoder/factual_serialization.py` to extract factual serialization for each sample.
+3. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/factual_serialization.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
+4. Set the local path in `config/finetune_config.yaml` for images and checkpoints, such as `mimic_cxr_image_dir` and `chexbert_model_checkpoint`
+5. Run the `knowledge_encoder/factual_serialization.py` to extract factual serialization for each sample.
 
 Notably,`scibert_scivocab_uncased` can be downloaded from [here](https://huggingface.co/allenai/scibert_scivocab_uncased). To calculate the NLG and CE metrics, you should download these checkpoints. `chexbert.pth` can be downloaded from [here](https://stanfordmedicine.app.box.com/s/c3stck6w6dol3h36grdc97xoydzxd7w9). `distilbert-base-uncased` can be downloaded from [here](https://huggingface.co/distilbert/distilbert-base-uncased). `bert-base-uncased` can be downloaded from [here](https://huggingface.co/google-bert/bert-base-uncased). `radgraph` can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/). . 
 
