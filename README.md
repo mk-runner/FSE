@@ -70,6 +70,8 @@ NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the resu
     ```bash
    conda activate dygiepp
     ```
+    Notably, for our RadGraph environment, you can refer to `knowledge_encoder/radgraph_requirements.yml`.
+   
 3. Config `radgraph_model_path` and `ann_path` in `knowledge_encoder/factual_serialization.py`. The former can be downloaded from [here](https://physionet.org/content/radgraph/1.0.0/), and the latter, `annotation.json`, can be obtained from [here](https://drive.google.com/file/d/1DS6NYirOXQf8qYieSVMvqNwuOlgAbM_E/view?usp=sharing). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/).
 4. Set the local path in `config/finetune_config.yaml` for images and checkpoints, such as `mimic_cxr_image_dir` and `chexbert_model_checkpoint`
 5. Run the `knowledge_encoder/factual_serialization.py` to extract factual serialization for each sample.
