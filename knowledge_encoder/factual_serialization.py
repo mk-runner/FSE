@@ -81,8 +81,8 @@ class RadGraphNER:
         # note that only the training corpus can be used.
         ann = json.load(open(ann_path))
         print("initialization the input data")
-        del ann['val']
-        del ann['test']
+        # del ann['val']
+        # del ann['test']
         with open(self.input_path, encoding='utf8', mode='w') as f:
             for split, value in ann.items():
                 print(f"preprocessing the {split} data...")
@@ -443,7 +443,7 @@ if __name__ == '__main__':
     factual_serialization = radgraph.preprocess_mimic_radgraph_output()
     get_mimic_cxr_annotations(ann_path, factual_serialization, sen_ann_path)
 
-    # extract factual serialization for some text
+    # extract factual serialization from other text
     hyps = ["patient is status post median sternotomy and cabg . the lungs are clear without focal consolidation . no pleural effusion or pneumothorax is seen . the cardiac and mediastinal silhouettes are unremarkable . no pulmonary edema is seen .",
             "___ year old woman with cirrhosis . patient is status post median sternotomy and cabg . the lungs are clear without focal consolidation . ",
     ]
