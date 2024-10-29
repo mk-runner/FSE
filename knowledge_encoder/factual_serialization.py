@@ -74,8 +74,8 @@ class RadGraphNER:
                 self.get_mimic_temp_dygie_input(ann_path)
             else:
                 self.get_corpus_temp_dygie_input(corpus)
-        # extract entities and relationships using RadGraph
-        self.extract_triplets()
+            # extract entities and relationships using RadGraph
+            self.extract_triplets()
 
     def get_mimic_temp_dygie_input(self, ann_path):
         # note that only the training corpus can be used.
