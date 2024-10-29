@@ -42,7 +42,7 @@ We use two datasets (IU X-Ray and MIMIC-CXR) in our paper.
 - For `MIMIC-CXR`, you can download medical images from [here](https://physionet.org/content/mimic-cxr/2.0.0/).
 
 
-NOTE: The `IU X-Ray` dataset is of small size, and thus the variance of the results is large.
+NOTE: The `IU X-Ray` dataset is small, and thus the variance of the results is large. You can download `medical reports` from [Google Drive](https://drive.google.com/file/d/1iWdFINSAJ7F97I4rTGddIziJAb-1sL3l/view?usp=drive_link). Note that you can apply with your license of [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/), and its `toy case` is in `knowledge_encoder/case.json`
 
 ## Reproducibility on MIMIC-CXR
 
