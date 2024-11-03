@@ -347,21 +347,7 @@ def preprocessing_entities(n, s, doc_key):
 
 
 def useless_core_findings_new():
-    result = {'down', 'surgery', 'port', 'wire', 'board', 'It', 'it', 'Body', 'upper',
-              'fullness', 'line', 'anterior', 'support', 'Status', 'New', 'young',
-              'rightward', 'Apices', 'leftward', 'hardware', 'resident', 'system',
-              'level', 'Hardware', 'location', 'misdirected', 'external', 'Rotated', 'disease',
-              'loops', 'course', 'off', 'new', 'opposite', 'lead', 'apices',
-              'aspiration', 'midline', 'monitoring', 'bilaterally', 'size',
-              'Position', 'overall', 'wires', 'standard', 'status',
-              'anteriorly', 'right', 'patient', 'overlying', 'feeding', 'interval',
-              'Otherwise', 'nodes', 'Multiple', 'rotation', 'findings',
-              'habitus', 'positioning', 'Accessed', 'reading', 'placement', 'read',
-              'levels', 'position', 'semi', 'otherwise', 'similar', 'curve',
-              'postoperative', 'bases', 'surveillance', 'sited', 'medially',
-              'region', 'They', 'mL', 'under', 'Left', 'limited', 'reposition',
-              'repositioning', 'limitation', 'These', 'left', 'R', 'rotated', 'This',
-              'post', 'Markedly', 'positioned', 'Post', }
+    result = {'It', 'it', 'Otherwise', 'otherwise', 'They', 'These', 'This'}
     return result
 
 
