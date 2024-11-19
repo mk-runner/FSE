@@ -22,6 +22,7 @@ If you use or extend our work, please cite our paper at ***.
 - `torch==2.1.2+cu118`
 - `transformers==4.23.1`
 - `torchvision==0.16.2+cu118`
+- `radgraph==0.09`
 - Due to the specific environment of RadGraph, we constructed two virtual environments: one for extracting factual serialization from radiology reports using the `structural entities approach` (see `knowledge_encoder/radgraph_requirements.txt` for details), and the other for running the overall FSE framework excluding the `structural entities approach` (see `requirements.txt` for more information).
 
 
