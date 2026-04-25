@@ -4,8 +4,9 @@
 
 # 📋 FSE: Factual Serialization Enhancement for Chest X-ray Report Generation
 
-[![📄 arXiv](https://img.shields.io/badge/arXiv-2405.09586-b31b1b.svg)](https://arxiv.org/abs/2405.09586)
-[![🪣 Checkpoints](https://img.shields.io/badge/Checkpoints-BaduNetDisk-green.svg)](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ)
+[![arXiv](https://img.shields.io/badge/arXiv-2405.09586-b31b1b.svg)](https://arxiv.org/abs/2405.09586)&nbsp;&nbsp;&nbsp;
+[![ESWA 2026](https://img.shields.io/badge/ESWA-2026-blue.svg)](https://www.sciencedirect.com/science/article/pii/S0957417426014636)&nbsp;&nbsp;&nbsp;
+[![Checkpoints](https://img.shields.io/badge/Checkpoints-BaduNetDisk-green.svg)](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ)
 
 
 </div>
@@ -18,13 +19,15 @@
 If you use or extend this work, please cite:
 
 ```bibtex
-@misc{liu2024factual,
-  title={Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation}, 
-  author={Kang Liu and Zhuoqi Ma and Mengmeng Liu and Zhicheng Jiao and Xiaolu Kang and Qiguang Miao and Kun Xie},
-  year={2024},
-  eprint={2405.09586},
-  archivePrefix={arXiv},
-  primaryClass={eess.IV}
+@article{liu-eswa-2026-fse,
+	title = {Factual Serialization Enhancement: A Key Innovation for Chest X-ray Report Generation},
+	journal = {Expert Systems with Applications},
+	pages = {132550},
+	year = {2026},
+	issn = {0957-4174},
+	doi = {10.1016/j.eswa.2026.132550},
+	url = {https://www.sciencedirect.com/science/article/pii/S0957417426014636},
+	author = {Kang Liu and Zhuoqi Ma and Mengmeng Liu and Zhicheng Jiao and Xiaolu Kang and Qiguang Miao and Kun Xie},
 }
 ```
 
