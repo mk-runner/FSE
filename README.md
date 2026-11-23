@@ -62,10 +62,10 @@ If you use or extend this work, please cite:
 ## 💾 Pretrained Checkpoints
 
 * **MIMIC-CXR:**
-  [Baidu Netdisk](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ) (code: `MK13`)
+  [Baidu Netdisk](https://pan.baidu.com/s/17-hlaUR6dPgwhXWhZyw2tQ) (code: `MK13`) [Hugging Face](https://huggingface.co/MK-runner/FSE)
 
 * **IU X-Ray:**
-  [Baidu Netdisk](https://pan.baidu.com/s/1SPSNGKEwSKlywUVDFxv_eg) (code: `MK13`)
+  [Baidu Netdisk](https://pan.baidu.com/s/1SPSNGKEwSKlywUVDFxv_eg) (code: `MK13`) [Hugging Face](https://huggingface.co/MK-runner/FSE)
 
 ---
 
