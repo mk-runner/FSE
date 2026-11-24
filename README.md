@@ -70,6 +70,7 @@ If you use or extend this work, please cite:
 ---
 
 ## ⚙️ Quick Reproducibility Guide
+### 0. [Configuration of Tokenizer](https://huggingface.co/MK-runner/FSE/tree/main/config/tokenizer)
 
 ### 1. Setup RadGraph Environment for Factual Serialization Extraction
 
